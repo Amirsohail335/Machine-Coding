@@ -39,7 +39,7 @@ const Counter = () => {
         <div className="justify-center items-center flex">
           <div>{currentValue}</div>
         </div>
-        <button onClick={increament}>+</button>
+        <button onClick={increament} className="cursor-pointer">+</button>
         <button onClick={decreament}>-</button>
       </div>
       <div className="flex justify-center gap-4">
