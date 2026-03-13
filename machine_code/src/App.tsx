@@ -1,5 +1,6 @@
 import "./App.css";
-import Counter from "./components/projects/Counter";
+import ClickOutsideDropdown from "./components/projects/2.outsideClick";
+// import Counter from "./components/projects/Counter";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         </div>
       </header>
       <main>
-        <Counter />
+        {/* <Counter /> */}
+        <ClickOutsideDropdown/>
       </main>
     </div>
   );
